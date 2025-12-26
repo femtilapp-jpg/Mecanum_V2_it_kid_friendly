@@ -1,25 +1,14 @@
 {
-    "name": "Keyestudio Mecanum V2",
-    "description": "",
-    "dependencies": {
-        "core": "*",
-        "radio": "*",
-        "microphone": "*"
-    },
-    "files": [
-        "main.blocks",
-        "main.ts",
-        "README.md"
-    ],
-    "testFiles": [
-        "test.ts"
-    ],
-    "targetVersions": {
-        "target": "8.0.18",
-        "targetId": "microbit"
-    },
-    "supportedTargets": [
-        "microbit"
-    ],
-    "preferredEditor": "blocksprj"
+  "name": "ks-ir-friendly",
+  "version": "0.0.1",
+  "description": "Barnevennlige IR-blokker for Keyestudio-biler",
+  "dependencies": {
+    "core": "*",
+    "microbit": "*",
+    "IrRemote": "github:…/IrRemote#vX.Y.Z"
+  },
+  "files": [
+    "main.ts"
+  ],
+  "public": true
 }
